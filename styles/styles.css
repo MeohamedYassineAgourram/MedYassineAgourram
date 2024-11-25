@@ -251,7 +251,7 @@ div ul li a:hover {
 
 @media (max-width: 768px) {
     #skills-section h2 {
-        font-size: 35px; /* Réduction de la taille du titre */
+        font-size: 25px; /* Réduction de la taille du titre */
     }
 }
 
