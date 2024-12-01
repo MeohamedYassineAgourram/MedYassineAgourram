@@ -48,6 +48,8 @@ header {
     align-items: center;
     padding: 10px 0;
     box-shadow: 0 0 20px var(--shadow-color);
+    position: absolute;
+    z-index: 1;
 }
 
 .navbar {
@@ -216,11 +218,9 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 12vh;
+    padding-top: 24vh;
     padding-bottom: 10vh;
     background-color: var(--white-color);
-    position: relative;
-    z-index: -1;
 }
 
 /* Style de la photo de profil */
@@ -375,8 +375,8 @@ header {
     border-radius: 25px;
     box-shadow: 0px 10px 30px var(--modal-shadow-color);
     padding: 30px 40px;
-    max-width: 600px;
-    width: 90%; /*Une largeur en pourcentage pour qu'elle s'adapte a tous les écrans*/
+    max-width: 90%;
+    width: 80%; /*Une largeur en pourcentage pour qu'elle s'adapte a tous les écrans*/
     text-align: center;
     animation: slide-in 0.4s ease; /* Smooth entrance animation */
 }
