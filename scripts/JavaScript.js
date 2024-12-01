@@ -121,11 +121,12 @@ function redirectToGithub() {
 
 /*SECTION 4: CONTACT*/
 // Get the form and error message element
+// Get the form and error message element
 const form = document.getElementById("contact-form");
 const errorMessage = document.getElementById("error-message");
 
 form.addEventListener("submit", function (e) {
-    // Prevent form from being submitted
+    // Prevent the form from being submitted
     e.preventDefault();
 
     // Retrieve form data
@@ -141,12 +142,24 @@ form.addEventListener("submit", function (e) {
         return;
     }
 
-    
-
     // Clear the error message if validation passes
     errorMessage.style.display = "none";
 
-    // Simulate form submission or send data to the server
-    alert("Formulaire envoyé avec succès !");
-    form.reset();
+    // Store form data in a JavaScript object
+    const formData = {
+        prenom: prenom,
+        nom: nom,
+        email: email,
+        message: message,
+    };
+
+    // Show the form data in an alert
+    alert(`Données soumises :
+Prénom: ${formData.prenom}
+Nom: ${formData.nom}
+E-mail: ${formData.email}
+Message: ${formData.message}`);
+
+    // Allow the form to be submitted after alert
+    form.submit();
 });
