@@ -79,7 +79,7 @@ function Header() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
   return (
     <header>
-      <img src="/Images/Logo-Photoroom.png" />
+      <img src="/Logo-Photoroom.png" />
 
       <div
         className={`navbar sidebar ${sidebarVisible ? "visible" : "hidden"}`}
