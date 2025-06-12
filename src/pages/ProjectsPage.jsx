@@ -55,14 +55,14 @@ function ProjectsPage() {
     }
 
     // Scroll to top of the page
-    if ((window.innerWidth > 900) && (window.innerWidth <= 1100)) {
+    if (window.innerWidth > 900 && window.innerWidth <= 1100) {
       window.scrollTo({
         top: 2200,
         behavior: "smooth",
       });
     }
 
-    if ((window.innerWidth > 700) && (window.innerWidth <= 900)) {
+    if (window.innerWidth > 700 && window.innerWidth <= 900) {
       window.scrollTo({
         top: 2300,
         behavior: "smooth",
@@ -169,18 +169,15 @@ function ProjectsPage() {
                 programmation d’un écosystème virtuel en utilisant des listes
                 chaînées. Dans cet écosystème, les proies et les prédateurs sont
                 représentés par une même structure de données contenant leurs
-                coordonnées, leur niveau d’énergie, ainsi qu’un tableau
-                représentant leurs directions. Grâce aux différentes fonctions
-                implémentées, nous avons simulé et visualisé les interactions
-                entre ces entités : les déplacements, la reproduction, la
-                prédation -les prédateurs qui mangent les proies-, et la
+                informations. Grâce aux différentes fonctions implémentées, nous
+                avons simulé et visualisé les interactions entre ces entités :
+                les déplacements, la reproduction, la prédation, et la
                 consommation de l’herbe par les proies. Toutes ces dynamiques
                 ont été paramétrées en fonction de probabilités, permettant de
                 créer une simulation réaliste et adaptable. Enfin, j’ai utilisé
                 le logiciel gnuplot pour tracer des graphiques illustrant la
-                variation du nombre d’individus -proies et prédateurs- en
-                fonction du nombre de générations, offrant ainsi une analyse
-                visuelle de l’évolution de l’écosystème au fil du temps.
+                variation du nombre d’individus en fonction du nombre de
+                générations.
               </p>
             </div>
           </div>
@@ -222,13 +219,9 @@ function ProjectsPage() {
                 véhicules influence-t-il la congestion des voitures électriques
                 ? Nous avons étudié l’impact de la congestion causée par la
                 recharge des voitures électriques sur le temps moyen des
-                trajets. Cela nous a permis de mieux comprendre les dynamiques
-                collectives des véhicules électriques et leur interaction avec
-                l'infrastructure de recharge. Grâce à ce programme, nous avons
-                également généré plusieurs graphiques illustrant la variation du
-                temps moyen des trajets en fonction du nombre et de la vitesse
-                des voitures, ainsi que d’autres variables, afin de mieux
-                visualiser et analyser le problème.
+                trajets. Grâce à ce programme, nous avons également généré
+                plusieurs graphiques illustrant la variation du temps moyen des
+                trajets en fonction du nombre et de la vitesse des voitures.
               </p>
             </div>
           </div>

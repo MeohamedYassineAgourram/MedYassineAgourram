@@ -30,8 +30,8 @@ function Work() {
     <div className="work" onClick={() => scrollBehavior()}>
       <div className="logos">
         <div>
-          <img src="/Images/Style_Shifter_Logo.png" className="logo1" />
-          <img src="/Images/OBS-Logo.png" className="logo2" />
+          <img src="/public/Images/Style_Shifter_Logo.png" className="logo1" />
+          <img src="/public/Images/OBS-Logo.png" className="logo2" />
         </div>
         <i className="fas fa-arrow-up-right-from-square"></i>
       </div>
