@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "../styles/Header.css";
 import Button from "./Button";
+import Logo from "../../public/Images/Logo-Photoroom.png";
 
 function Header() {
   function AboutScrollBehavior() {
@@ -79,7 +80,7 @@ function Header() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
   return (
     <header>
-      <img src="/Images/Logo-Photoroom.png" />
+      <img src={Logo} />
 
       <div
         className={`navbar sidebar ${sidebarVisible ? "visible" : "hidden"}`}
