@@ -1,0 +1,62 @@
+.HomeContainer {
+  display: grid;
+  grid-template-areas:
+    "work work profil projects projects"
+    "work work profil projects projects"
+    "work work profil projects projects"
+    "contact about about projects projects"
+    "contact about about projects projects";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 25px;
+  height: 78.7vh;
+}
+
+@media (max-width: 1100px) {
+  .HomeContainer {
+    display: grid;
+    grid-template-areas:
+      "work work profil profil projects projects"
+      "work work profil profil projects projects"
+      "work work profil profil projects projects"
+      "contact contact about about projects projects"
+      "contact contact about about projects projects";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 25px;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 900px) {
+  .HomeContainer {
+    display: grid;
+    grid-template-areas:
+      "profil contact contact projects projects projects"
+      "profil about about projects projects projects"
+      "work work work projects projects projects"
+      "work work work projects projects projects"
+      "work work work projects projects projects"
+      "work work work projects projects projects";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 25px;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 700px) {
+  .HomeContainer {
+    display: grid;
+    grid-template-areas:
+      "profil work"
+      "profil work"
+      "projects projects"
+      "projects projects"
+      "contact about";
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: 25px;
+    height: fit-content;
+  }
+}
