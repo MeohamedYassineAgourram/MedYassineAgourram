@@ -1,0 +1,59 @@
+.contact {
+  grid-area: contact;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #f8fafa;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.contact:hover {
+  box-shadow: 0px 0px 20px #726613;
+  transform: scale(1.03);
+}
+
+.contact h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  font-size: 45px;
+}
+
+.contact i {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.contact i:hover {
+  color: #726613;
+}
+
+@media (max-width: 900px) {
+  .contact h2 {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 35px;
+  }
+
+  .contact i {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

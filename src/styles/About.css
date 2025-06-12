@@ -1,0 +1,37 @@
+.about {
+  grid-area: about;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #ecbf2d;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.about:hover {
+  box-shadow: 0px 0px 20px #726613;
+  transform: scale(1.03);
+}
+
+.about h2 {
+  font-size: 60px;
+}
+
+.about p {
+  font-size: 17px;
+}
+
+.about i {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.about i:hover {
+  color: #726613;
+}

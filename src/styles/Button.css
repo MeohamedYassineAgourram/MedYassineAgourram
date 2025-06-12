@@ -1,0 +1,20 @@
+button {
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #fbea92;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  background-color: #726613;
+  color: white;
+  box-shadow: 0 0 10px #c6c6c8;
+}
