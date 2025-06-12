@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Work.css";
+import styleLogo from "../../public/Images/Style_Shifter_Logo.png";
+import obs from "../../public/Images/OBS-Logo.png";
 
 function Work() {
   function scrollBehavior() {
@@ -30,8 +32,8 @@ function Work() {
     <div className="work" onClick={() => scrollBehavior()}>
       <div className="logos">
         <div>
-          <img src="/public/Images/Style_Shifter_Logo.png" className="logo1" />
-          <img src="/public/Images/OBS-Logo.png" className="logo2" />
+          <img src={styleLogo} className="logo1" />
+          <img src={obs} alt="OBS" className="logo2" />
         </div>
         <i className="fas fa-arrow-up-right-from-square"></i>
       </div>
