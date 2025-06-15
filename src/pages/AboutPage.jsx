@@ -20,7 +20,7 @@ function AboutPage() {
         <button
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/public/Documents/Med_Yassine_Agourram_CV_L3.pdf";
+            link.href = "../../public/Documents/Med_Yassine_Agourram_CV_L3.pdf";
             link.download = "Med_Yassine_Agourram_CV_L3.pdf";
             link.click();
           }}
